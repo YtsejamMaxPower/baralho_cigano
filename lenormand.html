@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore os significados detalhados das cartas do Baralho Cigano com interpretações precisas e orientações para cada carta. Perfeito para iniciantes e praticantes que desejam se aprofundar ou obter uma perspectiva renovada.">
+    <meta name="keywords" content="Baralho Cigano, significado das cartas, leitura de cartas, guia de baralho cigano, esoterismo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baralho cigano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column; /* Itens são organizados verticalmente */
+            align-items: center; /* Centraliza os itens horizontalmente */
+            padding: 20px;
+        }
+        .card {
+            width: 460px; /* Largura fixa para as cartas */
+            padding: 10px;
+            margin: 10px 0; /* Margem apenas superior e inferior para espaçamento entre as cartas */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: justify;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto; /* Centraliza a carta horizontalmente */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .email {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 0.8em;
+            color: gray; /* Cor discreta para o e-mail */
+        }
+
+
+
+        body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    overflow-x: hidden;
+    font-size: 110%; /* Aumenta o tamanho da fonte do corpo em 20% */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto do título */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para separar do conteúdo abaixo */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte do título em 20% */
+}
+
+.card-description {
+    line-height: 1.5;
+    font-size: 1.1em; /* Aumenta o tamanho da fonte da descrição em 20% */
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 96%; /* Ajusta a largura da carta para se adequar a dispositivos móveis */
+        margin: 6px auto; /* Assegura que a margem seja aplicada igualmente em todos os lados */
+    }
+
+    body {
+        font-size: 100%; /* Opcional: Ajusta o tamanho da fonte para dispositivos menores */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Opcional: Aumenta o tamanho do título para destacar em dispositivos móveis */
+    }
+
+    .card-description {
+        font-size: 1em; /* Ajusta o tamanho da fonte da descrição para melhor leitura em telas menores */
+    }
+}
+
+    </style>
+</head>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H66F5F9Q5E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H66F5F9Q5E');
+</script>
+
+<body>
+<div class="cards">
+    </div>
+
+</body>
+
+
+
+<body>
+
+    <h1>O baralho cigano</h1>
+    <hr>
+    <div class="email">ytsejam_maxpower@yahoo.com.br</div> <!-- E-mail abaixo do título -->
+    
+
+
+<div class="cards" id="cards-container">
+
+</div>
+
+<script>
+const cardDescriptions = {
+  
+    "O Cavaleiro": {
+        "imageSrc": "lenormand/lenormand.001.png",
+        "keywords": "(carta positiva) Movimento, progresso, notícias rápidas",
+        "generalMeaning": "O Cavaleiro no Baralho Cigano simboliza ação rápida e movimento. Esta carta indica que as notícias ou mudanças estão a caminho, geralmente trazendo progresso significativo. Ela sugere um momento dinâmico em que decisões rápidas são necessárias e o progresso é inevitável.",
+        "symbols": "A figura do cavaleiro montado a galope simboliza a velocidade e a direção. Ele representa a chegada de novidades e a rápida execução de planos. A montaria, muitas vezes um cavalo, destaca a nobreza das intenções e a liberdade de movimento.",
+        "career": "Na vida profissional, O Cavaleiro anuncia uma fase de progresso acelerado. Pode indicar uma oportunidade de carreira que exige ação rápida ou a conclusão bem-sucedida de projetos.",
+        "love": "No contexto amoroso, esta carta sugere que as relações podem evoluir rapidamente. Pode ser o início de um novo romance que se desenvolve com velocidade ou mudanças significativas em um relacionamento existente.",
+        "advice": "Mantenha-se preparado para agir rapidamente. Aproveite o momento para avançar com projetos e decisões, pois a energia desta carta favorece ações dinâmicas e resultados rápidos.",
+        "imageAlt": "O Cavaleiro - Baralho Cigano"  // Tag para facilitar a localização da imagem no Google.
+    },
+
+    "Os Trevos": {
+        "imageSrc": "lenormand/lenormand.002.png",
+        "keywords": "Sorte, oportunidade, otimismo",
+        "generalMeaning": "O Trevo no Baralho Cigano simboliza a sorte e a brevidade. Esta carta traz uma mensagem de oportunidades passageiras que exigem atenção rápida para serem aproveitadas. Geralmente, indica um momento de leveza e fortuna, sugerindo um período breve, mas favorável.",
+        "symbols": "A imagem do trevo, frequentemente associada à boa sorte e ao sucesso fortuito, destaca a natureza efêmera das oportunidades que estão surgindo. É um lembrete de que a sorte acompanha aqueles que estão preparados para agir rapidamente.",
+        "career": "No ambiente profissional, O Trevo pode indicar uma oportunidade inesperada de avanço ou a resolução de problemas de forma rápida e satisfatória. É um bom momento para arriscar em iniciativas com grandes potenciais de retorno.",
+        "love": "No amor, esta carta sugere um período de alegria e satisfação emocional, embora breve. Encoraja a aproveitar o momento presente e desfrutar das pequenas felicidades da vida a dois.",
+        "advice": "Esteja atento às oportunidades que se apresentam de forma inesperada. A carta O Trevo aconselha a agir com otimismo e a aproveitar a onda de boa sorte, mantendo a agilidade para capturar os momentos de vantagem quando eles ocorrem.",
+        "imageAlt": "O Trevo - Baralho Cigano"  // Tag para facilitar a localização da imagem no Google.
+    },
+
+    "O Navio": {
+        "imageSrc": "lenormand/lenormand.003.png",
+        "keywords": "Viagem, mudança, exploração",
+        "generalMeaning": "O Navio simboliza jornadas físicas e espirituais. Esta carta representa viagens, mudanças significativas e o desenvolvimento pessoal através da exploração de novos horizontes. É uma indicação de progresso e movimento, seja geográfico ou intelectual.",
+        "symbols": "A imagem do navio navegando sobre as águas tranquilas simboliza a aventura, a descoberta e a transição. Ele representa a passagem de uma fase da vida para outra e a busca por novas experiências.",
+        "career": "No contexto profissional, O Navio pode sugerir uma oportunidade de negócio no exterior, viagens relacionadas ao trabalho ou uma mudança de carreira que implica uma transição significativa.",
+        "love": "No amor, indica uma viagem que pode trazer renovação ao relacionamento ou um encontro significativo durante uma viagem. Também sugere expansão dos horizontes emocionais.",
+        "advice": "Esteja aberto a novas experiências e pronto para embarcar em novas aventuras. O Navio incentiva a exploração e a aceitação das mudanças como uma parte natural da vida.",
+        "imageAlt": "O Navio - Baralho Cigano"
+    },
+    "A Casa": {
+        "imageSrc": "lenormand/lenormand.004.png",
+        "keywords": "Estabilidade, segurança, conforto",
+        "generalMeaning": "A Casa é um símbolo de segurança, conforto e estabilidade. Esta carta representa o lar, a família e a importância das bases sólidas. Sugere um período de harmonia e proteção, destacando a importância do ambiente doméstico.",
+        "symbols": "A representação de uma casa sólida e acolhedora simboliza proteção, calor familiar e refúgio seguro. É um lembrete da base segura de onde se pode explorar o mundo.",
+        "career": "No trabalho, A Casa indica um ambiente estável e confiável, propício ao crescimento pessoal e profissional. Pode também sugerir a necessidade de harmonia entre a vida profissional e pessoal.",
+        "love": "No contexto amoroso, esta carta sugere um período de paz e tranquilidade no relacionamento. Indica um momento propício para fortalecer laços familiares e construir um lar juntos.",
+        "advice": "Valorize a segurança e o conforto do seu lar. A Casa aconselha a manter a harmonia no ambiente doméstico e a cuidar das relações familiares.",
+        "imageAlt": "A Casa - Baralho Cigano"
+    },
+
+    "A Árvore": {
+        "imageSrc": "lenormand/lenormand.005.png",
+        "keywords": "Saúde, crescimento, conexões",
+        "generalMeaning": "A Árvore no Baralho Cigano é profundamente associada à saúde, vitalidade e conexões de longo prazo. Esta carta simboliza o crescimento, tanto físico quanto espiritual, e sugere um desenvolvimento que é gradual e firme. Ela destaca a importância das raízes e da estabilidade na vida do consulente.",
+        "symbols": "A imagem da árvore, com suas raízes firmemente plantadas e galhos se estendendo para o céu, simboliza a interconexão entre o céu e a terra, o físico e o espiritual. As folhas verdes indicam saúde e renovação, enquanto o tronco robusto representa a força e a estabilidade.",
+        "career": "No contexto profissional, A Árvore indica um crescimento constante e sustentável. Pode apontar para a maturidade de projetos ou investimentos a longo prazo. Sugere que os esforços atuais terão benefícios duradouros e que a estabilidade é alcançável com paciência e dedicação contínua.",
+        "love": "Em relacionamentos, esta carta representa desenvolvimento e profundidade. Indica uma relação que está se tornando mais significativa com o tempo, oferecendo suporte e estabilidade. Encoraja a nutrir os relacionamentos atuais, permitindo que eles cresçam e se fortaleçam gradualmente.",
+        "advice": "Cultive paciência e continue a nutrir suas bases, seja na saúde, no trabalho ou nos relacionamentos. A Árvore aconselha a manter a estabilidade e a buscar crescimento contínuo e sustentável. Esteja atento às suas raízes e ao que lhe proporciona sustentação e força.",
+        "imageAlt": "A Árvore - Baralho Cigano"  
+    },
+
+    "As Nuvens": {
+        "imageSrc": "lenormand/lenormand.006.png",
+        "keywords": "Confusão, incerteza, problemas temporários",
+        "generalMeaning": "As Nuvens no Baralho Cigano simbolizam um período de ambiguidade e incerteza. Esta carta indica que a situação atual pode ser confusa ou mal compreendida, sugerindo que é necessário cautela para evitar mal-entendidos ou decisões precipitadas.",
+        "symbols": "A imagem das nuvens obscuras cobrindo parte do céu representa a falta de clareza e a possibilidade de problemas ocultos. A transitoriedade das nuvens também sugere que essas dificuldades são passageiras e que a clareza eventualmente se restabelecerá.",
+        "career": "No ambiente de trabalho, As Nuvens podem indicar uma fase de incerteza nos negócios ou projetos. É um momento para agir com cautela, revisando planos e evitando compromissos arriscados até que a situação se torne mais clara.",
+        "love": "Em relacionamentos, esta carta alerta sobre possíveis mal-entendidos ou uma fase de dúvidas. Recomenda-se uma comunicação aberta e honesta para dissipar incertezas e evitar conflitos.",
+        "advice": "Procure clareza em meio à confusão e não tome decisões importantes enquanto não tiver uma visão clara da situação. Este é um momento para paciência e análise, não para ação precipitada.",
+        "imageAlt": "As Nuvens - Baralho Cigano"
+    },
+
+    "A Cobra": {
+        "imageSrc": "lenormand/lenormand.007.png",
+        "keywords": "Sedução, perigo, complexidade",
+        "generalMeaning": "A Cobra no Baralho Cigano é frequentemente associada a situações complexas ou pessoas que podem ter intenções ocultas. Ela simboliza o perigo e a sedução, alertando sobre traições ou complicação nos assuntos atuais.",
+        "symbols": "A imagem da cobra enrolada, pronta para atacar, evoca o perigo que espreita em situações enganosas ou relações complicadas. A natureza astuta da cobra também sugere inteligência e astúcia.",
+        "career": "No contexto profissional, A Cobra pode indicar rivalidade ou desafios complicados que requerem uma abordagem astuta e cautelosa. Adverte sobre possíveis traições ou competição desleal no ambiente de trabalho.",
+        "love": "Em relacionamentos, esta carta pode sinalizar uma relação complicada ou a presença de uma terceira pessoa causando desestabilização. É um aviso para estar atento a possíveis enganos ou infidelidades.",
+        "advice": "Mantenha-se vigilante e cuidadoso, especialmente em novas relações ou em situações que parecem ser mais complexas do que o usual. Procure entender profundamente os detalhes antes de tomar decisões.",
+        "imageAlt": "A Cobra - Baralho Cigano"
+    },
+
+  
+    "O Caixão": {
+        "imageSrc": "lenormand/lenormand.008.png",
+        "keywords": "Finalização, transformação, renovação",
+        "generalMeaning": "O Caixão no Baralho Cigano simboliza o fim de uma fase, a necessidade de transformação e a possibilidade de renovação. Esta carta indica que algo importante está concluindo, podendo levar a uma mudança significativa na vida do consulente.",
+        "symbols": "A imagem do caixão representa conclusão e finitude, mas também aponta para o potencial de novos começos que surgem após um fim. Simboliza a morte de velhas maneiras de ser para dar espaço a novas oportunidades.",
+        "career": "No contexto profissional, O Caixão pode indicar o fim de um projeto ou relacionamento de trabalho. Sugere uma fase de conclusão que pode ser seguida por um período de transição e novos começos.",
+        "love": "Em termos de relacionamentos, esta carta pode representar o fim de uma fase ou mesmo de uma relação. Encoraja a reflexão sobre o que deve ser deixado para trás para permitir crescimento e novos desenvolvimentos.",
+        "advice": "Aceite os finais como uma parte necessária do ciclo da vida. Use este período para refletir e renovar, preparando-se para as novas oportunidades que podem surgir após este período de conclusão.",
+        "imageAlt": "O Caixão - Baralho Cigano"
+    },
+    "As Flores": {
+        "imageSrc": "lenormand/lenormand.009.png",
+        "keywords": "Felicidade, sucesso, beleza",
+        "generalMeaning": "O Buquê no Baralho Cigano é uma carta muito positiva que traz consigo alegria, sucesso e gratificação. Simboliza um período de contentamento e beleza, sugerindo que bons momentos e satisfação estão a caminho.",
+        "symbols": "A imagem do buquê de flores coloridas e vibrantes representa a celebração e a beleza, indicando um período de felicidade e harmonia que pode influenciar diversos aspectos da vida do consulente.",
+        "career": "No ambiente de trabalho, O Buquê sugere reconhecimento e sucesso. Pode indicar a conclusão bem-sucedida de um projeto ou o recebimento de elogios e recompensas pelo esforço despendido.",
+        "love": "Em questões amorosas, esta carta promete um tempo de romance e harmonia. Pode indicar o florescimento de um novo relacionamento ou uma fase prazerosa em um compromisso já estabelecido.",
+        "advice": "Aproveite os bons momentos e compartilhe sua felicidade com outros. Este é um tempo para ser grato pelas bênçãos recebidas e para cultivar a beleza em todas as áreas da sua vida.",
+        "imageAlt": "O Buquê - Baralho Cigano"
+    },
+
+    "A Foice": {
+        "imageSrc": "lenormand/lenormand.010.png",
+        "keywords": "Corte, decisões rápidas, finalizações abruptas",
+        "generalMeaning": "A Foice no Baralho Cigano representa decisões rápidas ou a necessidade de cortar algo de maneira definitiva. Esta carta sugere que decisões importantes estão chegando e podem envolver a necessidade de terminar relações ou situações que não servem mais ao bem-estar do consulente.",
+        "symbols": "A imagem da foice, uma ferramenta usada para cortar rapidamente, simboliza ação decisiva e corte. Ela indica a necessidade de ser direto e cortar laços ou situações sem hesitação.",
+        "career": "No ambiente de trabalho, A Foice pode indicar a necessidade de fazer escolhas importantes rapidamente. Pode estar relacionada a demissões, cortes de orçamento ou a necessidade de terminar projetos que não estão progredindo como esperado.",
+        "love": "Em termos de relacionamentos, esta carta pode representar uma separação ou a necessidade de resolver problemas de forma conclusiva. Sugere uma abordagem direta para tratar de questões que estão pendentes.",
+        "advice": "Seja decidido e direto em suas ações. A Foice aconselha a não adiar decisões importantes e a enfrentar as situações com coragem, realizando os cortes necessários para o seu crescimento e bem-estar.",
+        "imageAlt": "A Foice - Baralho Cigano"
+    },
+
+    "O Chicote": {
+        "imageSrc": "lenormand/lenormand.011.png",
+        "keywords": "Conflito, discussão, repetição",
+        "generalMeaning": "O Chicote no Baralho Cigano simboliza conflitos e discussões. Esta carta alerta sobre a possibilidade de enfrentar disputas ou desentendimentos que podem ser intensos e repetitivos. Indica a necessidade de enfrentar e resolver essas questões para evitar ciclos de conflito.",
+        "symbols": "A imagem do chicote, utilizado para bater repetidamente, representa o potencial para conflito e o ciclo de ações e reações que podem se tornar destrutivas.",
+        "career": "No contexto profissional, O Chicote pode indicar discussões acaloradas ou rivalidades no trabalho. É um aviso para estar ciente de como as palavras e ações podem inflamar situações já tensas.",
+        "love": "Em questões amorosas, esta carta adverte sobre possíveis brigas e discussões que podem ser prejudiciais ao relacionamento. Sugere a necessidade de resolver desentendimentos de maneira construtiva.",
+        "advice": "Aborde os conflitos com a intenção de resolver e aprender com eles. O Chicote encoraja a usar a energia dos desafios de forma produtiva e a buscar soluções que quebrem ciclos de discórdia.",
+        "imageAlt": "O Chicote - Baralho Cigano"
+    },
+
+    "Os Pássaros": {
+        "imageSrc": "lenormand/lenormand.012.png",
+        "keywords": "Comunicação, nervosismo, pequenos problemas",
+        "generalMeaning": "Os Pássaros no Baralho Cigano simbolizam comunicação e agitação social. Esta carta indica um período de muita conversa e troca de informações, podendo também representar nervosismo ou preocupações menores que surgem de discussões ou rumores.",
+        "symbols": "A imagem de dois pássaros conversando entre si representa a necessidade de expressar pensamentos e sentimentos. Os pássaros também simbolizam liberdade e leveza, mas podem indicar a dispersão de energia através de preocupações desnecessárias.",
+        "career": "No contexto profissional, Os Pássaros podem indicar reuniões ou discussões frequentes. É um bom momento para networking e comunicação, mas também um alerta para não se perder em detalhes menores ou fofocas.",
+        "love": "Em termos de relacionamentos, esta carta sugere um período de conversas importantes. Pode indicar a necessidade de comunicação clara para resolver mal-entendidos ou para fortalecer o vínculo entre parceiros.",
+        "advice": "Mantenha uma comunicação clara e objetiva. Evite deixar que o nervosismo e as preocupações pequenas consumam sua energia. Use conversas para esclarecer situações e não para criar mais confusão.",
+        "imageAlt": "Os Pássaros - Baralho Cigano"
+    },
+    "A Criança": {
+        "imageSrc": "lenormand/lenormand.013.png",
+        "keywords": "Início, inocência, novidade",
+        "generalMeaning": "A Criança no Baralho Cigano representa novos começos, inocência e a alegria da descoberta. Esta carta sugere o início de um novo projeto ou fase na vida que traz consigo a promessa de experiências frescas e aprendizado.",
+        "symbols": "A imagem de uma criança simboliza novo início e potencial puro. A figura da criança também destaca a curiosidade e a capacidade de ver o mundo com olhos novos e sem preconceitos.",
+        "career": "No ambiente de trabalho, A Criança pode indicar o lançamento de novos projetos ou a introdução de novas ideias e abordagens. É um sinal de que a criatividade e a abordagem fresca serão recompensadas.",
+        "love": "Em questões amorosas, esta carta aponta para o rejuvenescimento de um relacionamento existente ou o início de um novo romance. Encoraja a manter uma abordagem lúdica e aberta no amor.",
+        "advice": "Abra-se para novas experiências com a curiosidade e o entusiasmo de uma criança. Este é um momento para aprender e explorar, abordando a vida com uma atitude positiva e aberta a novas possibilidades.",
+        "imageAlt": "A Criança - Baralho Cigano"
+    },  
+    "A Raposa": {
+        "imageSrc": "lenormand/lenormand.014.png",
+        "keywords": "Astúcia, estratégia, vigilância",
+        "generalMeaning": "A Raposa no Baralho Cigano é frequentemente associada à astúcia e à necessidade de ser estratégico. Esta carta sugere que a situação atual pode requerer cautela e um planejamento cuidadoso, advertindo contra possíveis enganos ou manipulações.",
+        "symbols": "A imagem da raposa, um animal conhecido por sua habilidade de se adaptar e sobreviver em diversas situações, simboliza inteligência e astúcia. A raposa alerta para olhar além das aparências e verificar as intenções ocultas dos outros.",
+        "career": "No contexto profissional, A Raposa pode indicar que vigilância e táticas inteligentes são necessárias. Pode sugerir que o ambiente de trabalho está competitivo ou que é preciso ser mais perspicaz para evitar ser enganado.",
+        "love": "Em termos de relacionamentos, esta carta adverte sobre a possibilidade de desonestidade ou mal-entendidos. Encoraja a ter uma comunicação clara e a ser cauteloso com as intenções das pessoas ao seu redor.",
+        "advice": "Seja astuto e não aceite as coisas como elas parecem à primeira vista. Use sua inteligência e habilidade de observação para navegar com sucesso pela situação atual.",
+        "imageAlt": "A Raposa - Baralho Cigano"
+    },
+    "O Urso": {
+        "imageSrc": "lenormand/lenormand.015.png",
+        "keywords": "Força, proteção, finanças",
+        "generalMeaning": "O Urso no Baralho Cigano representa força e proteção. Esta carta pode indicar a influência de uma figura de autoridade ou um período de foco em segurança financeira e estabilidade. O Urso também sugere a necessidade de se manter forte e assertivo.",
+        "symbols": "A figura do urso, poderosa e imponente, simboliza a autoridade e a proteção. Ele pode representar uma pessoa protetora na vida do consulente ou a necessidade de assumir esse papel. Em termos financeiros, o urso é um sinal de potencial para ganho substancial, mas com a advertência de ser prudente.",
+        "career": "No ambiente de trabalho, O Urso pode sugerir que você terá que assumir um papel de liderança ou lidar com figuras de autoridade. Também é um bom sinal para questões financeiras, indicando ganhos ou a necessidade de proteger recursos.",
+        "love": "Em questões amorosas, esta carta indica a necessidade de segurança e estabilidade nos relacionamentos. Pode sugerir que é hora de proteger e nutrir as relações mais próximas ou talvez lidar com questões de dependência.",
+        "advice": "Assuma a força e a proteção como qualidades-chave neste período. Mantenha-se firme e seguro em suas decisões e ações, especialmente em relação a finanças e relações pessoais.",
+        "imageAlt": "O Urso - Baralho Cigano"
+    },
+
+    "As Estrelas": {
+        "imageSrc": "lenormand/lenormand.016.png",
+        "keywords": "Esperança, inspiração, espiritualidade",
+        "generalMeaning": "As Estrelas no Baralho Cigano simbolizam esperança, orientação e inspiração. Esta carta indica um período de clareza e realização de desejos, sugerindo que o consulente está alinhado com suas aspirações mais elevadas e pode contar com o universo para guiá-lo.",
+        "symbols": "A imagem de estrelas brilhando no céu noturno representa possibilidades infinitas e a conexão com o divino. Elas são um lembrete da capacidade de sonhar e de alcançar metas elevadas.",
+        "career": "No contexto profissional, As Estrelas podem indicar inspiração e novas ideias que levam ao sucesso. É um bom momento para perseguir seus sonhos de carreira com otimismo e uma visão clara de seus objetivos.",
+        "love": "Em termos de relacionamentos, esta carta sugere harmonia e conexão espiritual com parceiros. Pode indicar um período onde o relacionamento alcança uma compreensão mais profunda ou onde novos relacionamentos inspiradores começam.",
+        "advice": "Mantenha-se fiel aos seus sonhos e use sua intuição para seguir o caminho certo. As Estrelas são um sinal de que você deve se permitir ser guiado por suas aspirações e esperanças mais altas.",
+        "imageAlt": "As Estrelas - Baralho Cigano"
+    },
+    "A Cegonha": {
+        "imageSrc": "lenormand/lenormand.017.png",
+        "keywords": "Mudança, novos começos, nascimento",
+        "generalMeaning": "A Cegonha no Baralho Cigano representa mudança, renovação e novos começos. Esta carta é frequentemente um sinal de boas notícias ou mudanças positivas, como o nascimento de uma criança, a mudança de casa ou a transformação pessoal.",
+        "symbols": "A imagem da cegonha voando ou carregando algo novo simboliza a transição e a capacidade de trazer novas criações à vida. A cegonha é um símbolo de fertilidade e de novos desenvolvimentos.",
+        "career": "No ambiente de trabalho, A Cegonha pode indicar uma transição de carreira ou a chegada de novas oportunidades. Pode ser um momento de crescimento pessoal ou de iniciar novos projetos.",
+        "love": "Em termos amorosos, esta carta pode anunciar uma renovação ou o início de um novo capítulo emocional. É um momento favorável para relacionamentos começarem ou para revitalizar um relacionamento existente.",
+        "advice": "Abra-se para as mudanças e acolha as novas oportunidades com otimismo. A Cegonha encoraja a adaptabilidade e a aceitação das novas fases da vida que estão por vir.",
+        "imageAlt": "A Cegonha - Baralho Cigano"
+    },
+    "O Cachorro": {
+        "imageSrc": "lenormand/lenormand.018.png",
+        "keywords": "Lealdade, amizade, confiança",
+        "generalMeaning": "O Cão no Baralho Cigano simboliza lealdade, confiabilidade e amizade verdadeira. Esta carta representa a presença de um amigo leal ou um conselheiro de confiança e sugere a importância de relações de confiança e apoio mútuo.",
+        "symbols": "A imagem de um cão fiel ao lado de seu dono destaca a lealdade e a dedicação. O cão também é um símbolo de proteção e de companheirismo genuíno, mostrando a importância de ter apoio confiável em tempos de necessidade.",
+        "career": "No contexto profissional, O Cão pode indicar um ambiente de trabalho harmonioso onde a confiança e o companheirismo prevalecem. Pode também sugerir que uma parceria leal será crucial para o sucesso em projetos futuros.",
+        "love": "Em termos de relacionamentos, esta carta reflete um vínculo estável e confiável. É um bom presságio para a solidez das relações, indicando que a fidelidade e o suporte mútuo estão presentes ou em desenvolvimento.",
+        "advice": "Valorize as relações de confiança e seja um amigo leal. O Cão aconselha a manter a fidelidade e a integridade em todas as suas interações e a apreciar quem está ao seu lado nos momentos bons e ruins.",
+        "imageAlt": "O Cão - Baralho Cigano"
+    },
+    "A Torre": {
+        "imageSrc": "lenormand/lenormand.019.png",
+        "keywords": "Solidão, isolamento, perspectiva",
+        "generalMeaning": "A Torre no Baralho Cigano representa isolamento, mas também perspectiva e privacidade. Esta carta sugere um período de reflexão ou a necessidade de se distanciar das situações para ganhar uma visão mais clara dos acontecimentos.",
+        "symbols": "A imagem de uma torre alta e isolada destaca a separação do mundo exterior e a necessidade de introspecção. A torre, erguendo-se acima do cotidiano, simboliza uma visão elevada e a possibilidade de observar a vida de um ponto de vista superior.",
+        "career": "No ambiente de trabalho, A Torre pode sugerir que você pode se sentir isolado ou que precisa de tempo sozinho para planejar ou refletir sobre seus objetivos profissionais. Também pode indicar que um período de trabalho solitário pode ser produtivo.",
+        "love": "Em questões amorosas, esta carta pode indicar um período de frieza ou distanciamento emocional. É importante usar esse tempo para refletir sobre suas necessidades e desejos pessoais, talvez considerando o que você realmente valoriza em uma relação.",
+        "advice": "Use o período de isolamento para ganhar perspectiva e clareza. A Torre encoraja a encontrar paz na solidão e usar esse tempo para desenvolver uma compreensão mais profunda de si mesmo e de suas metas.",
+        "imageAlt": "A Torre - Baralho Cigano"
+    },
+    "O Jardim": {
+        "imageSrc": "lenormand/lenormand.020.png",
+        "keywords": "Comunidade, socialização, público",
+        "generalMeaning": "O Jardim no Baralho Cigano representa a comunidade, encontros sociais e a vida pública. Esta carta sugere um período de interação social intensa e participação em atividades comunitárias ou públicas, destacando a importância das conexões sociais e do networking.",
+        "symbols": "A imagem de um jardim florido e bem cuidado simboliza a beleza e a harmonia que podem ser alcançadas através do trabalho em conjunto e da interação social. O jardim é um lugar de encontro e de troca de ideias e experiências.",
+        "career": "No contexto profissional, O Jardim pode indicar que o trabalho em equipe e a rede de contatos serão cruciais para o sucesso. Pode ser um bom momento para eventos de networking ou para promover projetos e ideias em um espaço público.",
+        "love": "Em termos de relacionamentos, esta carta reflete um período de encontros sociais ativos, que podem trazer novas conexões amorosas ou fortalecer as existentes através de atividades compartilhadas.",
+        "advice": "Engaje-se com sua comunidade e amplie sua rede de contatos. O Jardim encoraja a aproveitar a energia das interações sociais para cultivar novas oportunidades e fortalecer laços existentes.",
+        "imageAlt": "O Jardim - Baralho Cigano"
+    },
+    "A Montanha": {
+        "imageSrc": "lenormand/lenormand.021.png",
+        "keywords": "Obstáculos, desafios, isolamento",
+        "generalMeaning": "A Montanha no Baralho Cigano simboliza grandes desafios ou obstáculos que podem parecer insuperáveis. Esta carta sugere um período de dificuldades ou de confronto com barreiras que requerem esforço significativo para serem superadas.",
+        "symbols": "A imagem de uma montanha imponente e intransponível representa a solidez dos desafios que estão à frente. A montanha é também um símbolo de isolamento e de contemplação necessária para superar dificuldades.",
+        "career": "No ambiente de trabalho, A Montanha pode indicar a presença de obstáculos significativos que podem retardar o progresso. É um momento para planejar cuidadosamente e talvez buscar rotas alternativas para atingir seus objetivos.",
+        "love": "Em questões amorosas, esta carta pode sugerir barreiras emocionais ou circunstâncias que impedem a proximidade ou o desenvolvimento do relacionamento. Pode ser necessário paciência e persistência para superar essas barreiras.",
+        "advice": "Enfrente os desafios com determinação e prepare-se para um trabalho árduo. A Montanha encoraja a desenvolver resiliência e a buscar soluções criativas para superar os obstáculos que se apresentam.",
+        "imageAlt": "A Montanha - Baralho Cigano"
+    },
+    "Os Caminhos": {
+        "imageSrc": "lenormand/lenormand.022.png",
+        "keywords": "Escolhas, decisões, caminhos alternativos",
+        "generalMeaning": "Os Caminhos no Baralho Cigano representam o momento de fazer escolhas e a existência de múltiplas opções. Esta carta sugere a necessidade de tomar decisões significativas que podem alterar o curso da vida do consulente, destacando a importância da clareza e do discernimento.",
+        "symbols": "A imagem de caminhos que se bifurcam simboliza as diferentes direções que a vida pode tomar. Cada caminho oferece uma experiência única e leva a consequências distintas, enfatizando a necessidade de escolher com sabedoria.",
+        "career": "No contexto profissional, Os Caminhos podem indicar que você se encontra em uma encruzilhada, com a oportunidade de escolher entre várias oportunidades de carreira. É um momento para avaliar cuidadosamente suas opções e tomar decisões que melhor alinhem com seus objetivos de longo prazo.",
+        "love": "Em termos de relacionamentos, esta carta reflete um ponto de decisão importante, onde você pode estar considerando compromissos sérios ou escolhendo entre potenciais parceiros. Aconselha a pensar cuidadosamente sobre o que você realmente deseja em uma relação.",
+        "advice": "Analise todas as opções disponíveis e considere suas consequências antes de fazer uma escolha. Os Caminhos encorajam a usar a intuição e a razão combinadas para fazer escolhas que verdadeiramente reflitam seus valores e desejos mais profundos.",
+        "imageAlt": "Os Caminhos - Baralho Cigano"
+    },
+    "Os Ratos": {
+        "imageSrc": "lenormand/lenormand.023.png",
+        "keywords": "Perda, preocupação, desgaste",
+        "generalMeaning": "Os Ratos no Baralho Cigano simbolizam perda, preocupações e desgaste. Esta carta alerta sobre a possível deterioração de situações ou relações, seja por negligência ou por fatores estressantes que consomem recursos e energia.",
+        "symbols": "A imagem de ratos, que frequentemente roubam e corroem, representa o desaparecimento gradual de recursos ou a erosão da saúde física e emocional. Os ratos sugerem que algo está sendo consumido por preocupações ou por má administração.",
+        "career": "No ambiente de trabalho, Os Ratos podem indicar stress excessivo ou a perda de recursos importantes, como tempo ou dinheiro. É um sinal para revisar suas estratégias e eliminar desperdícios ou fatores que estão drenando sua energia.",
+        "love": "Em questões amorosas, esta carta pode representar inseguranças ou problemas que estão corroendo lentamente o relacionamento. É importante abordar essas questões abertamente para evitar uma deterioração maior.",
+        "advice": "Esteja atento a sinais de desgaste em todas as áreas da sua vida e tome medidas para conservar sua energia e recursos. Os Ratos aconselham a lidar com as preocupações antes que elas se tornem mais graves e consumam mais do que você pode oferecer.",
+        "imageAlt": "Os Ratos - Baralho Cigano"
+    },
+
+    "O Coração": {
+        "imageSrc": "lenormand/lenormand.024.png",
+        "keywords": "Amor, paixão, afeto",
+        "generalMeaning": "O Coração no Baralho Cigano simboliza o amor em todas as suas formas, incluindo paixão, romance e amizade. Esta carta sugere um período de forte conexão emocional e felicidade nos relacionamentos. É um indicativo de que o amor é uma força central na situação atual.",
+        "symbols": "A imagem de um coração vibrante representa a capacidade de amar e ser amado, destacando as emoções calorosas e a generosidade. O coração é também um símbolo de verdade e sinceridade nos sentimentos.",
+        "career": "No contexto profissional, O Coração pode indicar um ambiente de trabalho harmonioso onde as relações interpessoais são cordiais e há uma apreciação mútua entre colegas. Pode também representar trabalhar em algo que você ama verdadeiramente.",
+        "love": "Em termos de relacionamentos, esta carta é um sinal muito positivo, indicando desenvolvimentos felizes e momentos de alegria. Pode sugerir um novo romance, o aprofundamento de um relacionamento existente, ou simplesmente períodos de maior intimidade e conexão.",
+        "advice": "Permita-se abrir para o amor e expressar seus sentimentos abertamente. O Coração encoraja a viver e agir com paixão e verdade, fortalecendo as conexões emocionais em sua vida.",
+        "imageAlt": "O Coração - Baralho Cigano"
+    },
+    "As Alianças": {
+        "imageSrc": "lenormand/lenormand.025.png",
+        "keywords": "Compromisso, parceria, contrato",
+        "generalMeaning": "O Anel no Baralho Cigano representa compromissos e acordos de longo prazo, sejam eles pessoais, como em casamentos, ou profissionais, como em sociedades ou contratos. Esta carta fala de vínculos formais e a necessidade de honrá-los, sugerindo uma fase de envolvimento mais sério e formal.",
+        "symbols": "A imagem de um anel, um círculo perfeito sem início ou fim, simboliza a continuidade e a durabilidade. O anel é um sinal de fidelidade e de acordo mútuo, seja em relações pessoais ou em negócios.",
+        "career": "No ambiente de trabalho, O Anel pode indicar a formalização de parcerias comerciais ou a assinatura de contratos importantes. Sugere estabilidade e comprometimento a longo prazo em projetos ou parcerias.",
+        "love": "Em questões amorosas, esta carta é um indicativo de compromisso sério, como noivados ou casamentos. Representa uma fase de consolidação e formalização de relações.",
+        "advice": "Considere as responsabilidades que vêm com qualquer compromisso ou acordo antes de se envolver. O Anel aconselha a pensar seriamente sobre as implicações de longo prazo de seus compromissos e a agir com integridade em todas as promessas feitas.",
+        "imageAlt": "O Anel - Baralho Cigano"
+    },
+
+    "Os Livros": {
+        "imageSrc": "lenormand/lenormand.026.png",
+        "keywords": "Conhecimento, segredo, estudo",
+        "generalMeaning": "Os Livros no Baralho Cigano simbolizam o conhecimento, a educação e os segredos. Esta carta sugere um período de aprendizado ou a necessidade de aprofundar-se em algum assunto. Pode indicar também a descoberta de segredos ou informações que estavam ocultas.",
+        "symbols": "A imagem de livros empilhados ou abertos representa a busca e a acumulação de conhecimento. Os livros são também um símbolo de sabedoria e de mistérios que estão prestes a ser revelados.",
+        "career": "No contexto profissional, Os Livros podem indicar que o conhecimento técnico ou a formação contínua são essenciais para o sucesso no momento atual. Pode sugerir a necessidade de estudos adicionais ou especialização em sua área.",
+        "love": "Em termos de relacionamentos, esta carta pode revelar que há coisas não ditas ou aspectos de seu parceiro que ainda estão para ser descobertos. Encoraja a comunicação e o entendimento mútuo através do diálogo e da partilha de conhecimentos.",
+        "advice": "Aprofunde-se nos estudos e na busca por conhecimento. Os Livros aconselham a valorizar a educação e a preparação como meios para alcançar seus objetivos e desvendar o que está oculto.",
+        "imageAlt": "Os Livros - Baralho Cigano"
+    },
+    "A Carta": {
+        "imageSrc": "lenormand/lenormand.027.png",
+        "keywords": "Comunicação, notícia, documento",
+        "generalMeaning": "A Carta no Baralho Cigano indica a chegada de notícias ou informações e a importância da comunicação. Esta carta pode representar uma mensagem importante que está a caminho, seja por meio de um documento formal, um e-mail ou uma conversa significativa.",
+        "symbols": "A imagem de uma carta aberta simboliza a troca de informações e a comunicação clara. Pode também indicar a formalização de acordos ou o recebimento de notícias esperadas.",
+        "career": "No ambiente de trabalho, A Carta pode sugerir a chegada de informações importantes que podem influenciar suas decisões ou a trajetória de seus projetos. É um bom momento para negociações ou para clarificar acordos e contratos.",
+        "love": "Em questões amorosas, esta carta pode indicar uma declaração ou uma conversa importante que irá esclarecer sentimentos ou intenções entre parceiros. Encoraja a expressão aberta e honesta dos sentimentos.",
+        "advice": "Mantenha-se aberto e receptivo às mensagens que estão chegando. A Carta aconselha a estar atento às informações que recebe e a comunicar-se de maneira clara e efetiva.",
+        "imageAlt": "A Carta - Baralho Cigano"
+    },
+    "O Homem": {
+        "imageSrc": "lenormand/lenormand.028.png",
+        "keywords": "Influência masculina, ação, assertividade",
+        "generalMeaning": "O Homem no Baralho Cigano representa a figura masculina ou aspectos tipicamente associados ao masculino, como a assertividade, a ação e a liderança. Esta carta pode indicar a presença de um homem importante na vida do consulente ou a necessidade de adotar uma abordagem mais direta e ativa em algumas situações.",
+        "symbols": "A imagem de um homem, frequentemente representado em uma postura de confiança e autoridade, simboliza força, proteção e decisão. Reflete também a influência que essa figura pode exercer no contexto atual do consulente.",
+        "career": "No contexto profissional, O Homem pode representar um colega, superior ou um influenciador chave que terá um papel importante em assuntos de trabalho. Também pode sugerir que o consulente deve tomar a iniciativa ou liderar um projeto.",
+        "love": "Em termos de relacionamentos, esta carta pode indicar a influência significativa de um parceiro ou figura masculina na vida amorosa do consulente. Pode também encorajar o consulente a ser mais assertivo em expressar seus sentimentos e desejos.",
+        "advice": "Seja proativo e confiante nas suas ações. O Homem aconselha a assumir responsabilidades e liderar com coragem, enfrentando os desafios de maneira direta.",
+        "imageAlt": "O Homem - Baralho Cigano"
+    },
+    "A Mulher": {
+        "imageSrc": "lenormand/lenormand.029.png",
+        "keywords": "Influência feminina, receptividade, intuição",
+        "generalMeaning": "A Mulher no Baralho Cigano representa a figura feminina ou aspectos comumente associados ao feminino, como a intuição, a receptividade e a sensibilidade. Esta carta pode indicar a presença de uma mulher importante na vida do consulente ou a necessidade de adotar uma abordagem mais receptiva e intuitiva em algumas áreas da vida.",
+        "symbols": "A imagem de uma mulher, frequentemente retratada em uma postura de abertura e acolhimento, simboliza cuidado, compreensão e conexão emocional. Representa também a influência que essa figura pode ter no bem-estar e nas decisões do consulente.",
+        "career": "No ambiente de trabalho, A Mulher pode indicar uma colega, superiora ou uma influenciadora chave que desempenhará um papel importante em assuntos profissionais. Pode também sugerir a necessidade de abordagens mais colaborativas e empáticas.",
+        "love": "Em questões amorosas, esta carta pode ressaltar a influência significativa de uma parceira ou figura feminina na vida amorosa do consulente. Encoraja a expressão de emoções e a construção de uma conexão mais profunda.",
+        "advice": "Escute sua intuição e seja receptivo às necessidades e emoções dos outros. A Mulher aconselha a abordar situações com empatia e compreensão, valorizando as conexões emocionais e as perspectivas alternativas.",
+        "imageAlt": "A Mulher - Baralho Cigano"
+    },
+    "Os Lírios": {
+        "imageSrc": "lenormand/lenormand.030.png",
+        "keywords": "Paz, serenidade, maturidade",
+        "generalMeaning": "Os Lírios no Baralho Cigano simbolizam paz, tranquilidade e maturidade. Esta carta sugere um período de calma e harmonia, destacando a importância do equilíbrio e da sabedoria acumulada ao longo dos anos. Pode também indicar uma influência de uma figura mais velha ou mentor.",
+        "symbols": "A imagem de lírios brancos, frequentemente associada à pureza e à paz, representa serenidade e a busca por uma vida equilibrada. Os lírios também podem simbolizar a beleza que advém da experiência e da idade.",
+        "career": "No contexto profissional, Os Lírios podem indicar um ambiente de trabalho harmonioso ou a influência positiva de um colega mais experiente. Pode também sugerir que é um bom momento para negociações, pois a energia pacífica favorece acordos justos.",
+        "love": "Em termos de relacionamentos, esta carta sugere um período de tranquilidade e entendimento mútuo. Pode indicar um relacionamento maduro ou a necessidade de abordar as relações com mais sabedoria e paciência.",
+        "advice": "Procure viver de maneira equilibrada e harmoniosa. Os Lírios aconselham a valorizar a paz e a maturidade em suas interações, e a buscar sabedoria nas experiências passadas para guiar suas ações presentes.",
+        "imageAlt": "Os Lírios - Baralho Cigano"
+    },
+    "O Sol": {
+        "imageSrc": "lenormand/lenormand.031.png",
+        "keywords": "Sucesso, vitalidade, clareza",
+        "generalMeaning": "O Sol no Baralho Cigano representa sucesso, vitalidade e a energia positiva que ilumina todas as áreas da vida. Esta carta sugere um período de grande clareza, sucesso e prosperidade, impulsionado pela energia vibrante e pela força do sol.",
+        "symbols": "A imagem do sol brilhante simboliza o poder, a energia e a vitalidade. O sol é uma fonte de luz que dissipa as trevas e traz clareza e verdade para as situações.",
+        "career": "No ambiente de trabalho, O Sol indica um período de sucesso e realizações destacadas. É um excelente momento para lançar novos projetos ou para colher os frutos de seu trabalho árduo, pois a energia do sol favorece o crescimento e o reconhecimento.",
+        "love": "Em termos amorosos, esta carta traz uma mensagem de alegria e satisfação. Pode indicar uma fase de grande harmonia e felicidade num relacionamento, onde ambos os parceiros se sentem energizados e apoiados.",
+        "advice": "Aproveite a energia positiva que está ao seu redor. O Sol encoraja a ser otimista e a agir com confiança, utilizando sua energia e clareza para alcançar seus objetivos e iluminar os caminhos à sua frente.",
+        "imageAlt": "O Sol - Baralho Cigano"
+    },
+    "A Lua": {
+        "imageSrc": "lenormand/lenormand.032.png",
+        "keywords": "Emoções, intuição, inconsciente",
+        "generalMeaning": "A Lua no Baralho Cigano simboliza o mundo das emoções, a intuição e o inconsciente. Esta carta sugere um período de aumento da sensibilidade emocional, revelações subconscientes e uma conexão mais profunda com a própria intuição.",
+        "symbols": "A imagem da lua, muitas vezes associada ao mistério e ao que é oculto, representa o mundo interior e as influências emocionais que não são imediatamente visíveis. A lua também simboliza a capacidade de navegar através da intuição e das emoções.",
+        "career": "No contexto profissional, A Lua pode indicar que percepções subconscientes ou sentimentos não expressos estão influenciando suas decisões de trabalho. Pode ser um sinal para confiar mais em sua intuição ao tomar decisões importantes.",
+        "love": "Em termos de relacionamentos, esta carta sugere um tempo de romance intensificado e conexões emocionais profundas. Pode também indicar que aspectos não ditos ou sentimentos ocultos precisam ser explorados e expressos.",
+        "advice": "Permita-se sentir e explorar suas emoções. A Lua aconselha a prestar atenção aos seus sonhos e impressões intuitivas, pois eles podem oferecer orientação valiosa sobre questões que preocupam sua mente consciente.",
+        "imageAlt": "A Lua - Baralho Cigano"
+    },
+    "A Chave": {
+        "imageSrc": "lenormand/lenormand.033.png",
+        "keywords": "Soluções, descobertas, revelações importantes",
+        "generalMeaning": "A Chave no Baralho Cigano simboliza soluções e respostas para problemas complexos, indicando que as portas serão abertas e os obstáculos serão superados. Esta carta sugere que soluções importantes estão ao seu alcance e que decisões significativas podem ser feitas com confiança.",
+        "symbols": "A imagem de uma chave é um símbolo universal de acesso, solução e descoberta de segredos. A chave desbloqueia portas, tanto literal quanto metaforicamente, e representa o poder de abrir caminhos e revelar novas possibilidades.",
+        "career": "No ambiente de trabalho, A Chave pode indicar que você encontrará a solução para um problema persistente ou que uma oportunidade inesperada abrirá novos caminhos para o sucesso. É um excelente momento para inovar e implementar ideias que anteriormente pareciam desafiadoras.",
+        "love": "Em questões amorosas, esta carta pode representar a descoberta de algo significativo sobre seu relacionamento ou a solução para um problema que estava afetando a harmonia. Indica que agora é um bom momento para resolver questões pendentes.",
+        "advice": "Utilize as oportunidades que se apresentam para desbloquear novas áreas da sua vida. A Chave aconselha a agir com determinação e confiança, pois as respostas e soluções que você precisa estão ao seu alcance.",
+        "imageAlt": "A Chave - Baralho Cigano"
+    },
+
+    "Os Peixes": {
+        "imageSrc": "lenormand/lenormand.034.png",
+        "keywords": "Abundância, negócios, fluidez",
+        "generalMeaning": "Os Peixes no Baralho Cigano simbolizam a abundância, a prosperidade e frequentemente estão relacionados a negócios e ao fluxo financeiro. Esta carta sugere um período de ganho material e sucesso em empreendimentos comerciais, destacando também a importância de se adaptar e fluir com as circunstâncias.",
+        "symbols": "A imagem de peixes nadando juntos sugere movimento, fluxo e a capacidade de navegar através de mudanças com flexibilidade e intuição. Os peixes também são um antigo símbolo de sorte e riqueza.",
+        "career": "No contexto profissional, Os Peixes podem indicar um momento de crescimento financeiro e oportunidades de expansão em negócios. É um bom momento para investimentos e para explorar novos mercados ou novas formas de aumentar a renda.",
+        "love": "Em termos de relacionamentos, esta carta pode indicar que a abordagem prática para resolver questões financeiras com seu parceiro trará melhorias e estabilidade. Também sugere generosidade e compartilhamento de recursos.",
+        "advice": "Mantenha-se flexível e aberto a novas oportunidades de crescimento. Os Peixes aconselham a explorar novas maneiras de melhorar sua situação financeira, utilizando sua intuição para guiar suas decisões de investimento e negócios.",
+        "imageAlt": "Os Peixes - Baralho Cigano"
+    },
+    "A Âncora": {
+        "imageSrc": "lenormand/lenormand.035.png",
+        "keywords": "Estabilidade, segurança, esperança",
+        "generalMeaning": "A Âncora no Baralho Cigano representa estabilidade, segurança e a necessidade de se firmar em meio às turbulências. Esta carta sugere encontrar um ponto de estabilidade em sua vida ou a consolidação de uma posição em qualquer área, seja emocional, profissional ou financeira.",
+        "symbols": "A imagem de uma âncora fixa simboliza segurança e a capacidade de se manter estável mesmo em condições adversas. É também um símbolo de esperança, sugerindo que, apesar das dificuldades, há sempre um ponto seguro ao qual se pode retornar.",
+        "career": "No ambiente de trabalho, A Âncora pode indicar a necessidade de estabilidade e permanência. Pode ser um bom momento para consolidar sua posição na empresa ou para criar uma base sólida para o futuro profissional.",
+        "love": "Em termos amorosos, esta carta sugere um relacionamento duradouro ou a necessidade de estabilidade emocional. Pode ser um indicativo de compromisso a longo prazo ou de fortalecer as bases de um relacionamento existente.",
+        "advice": "Procure estabilidade e segurança nas áreas importantes da sua vida. A Âncora aconselha a fortalecer suas fundações e a ter paciência, pois a estabilidade traz consigo segurança e confiança para o futuro.",
+        "imageAlt": "A Âncora - Baralho Cigano"
+    },  
+
+    "A Cruz": {
+        "imageSrc": "lenormand/lenormand.036.png",
+        "keywords": "Desafio, sofrimento, fé",
+        "generalMeaning": "A Cruz no Baralho Cigano simboliza provações, sofrimento e a necessidade de enfrentar desafios que podem ser difíceis, mas são importantes para o crescimento espiritual ou emocional. Esta carta sugere um período de testes ou um momento crítico que requer muita força e fé para ser superado.",
+        "symbols": "A imagem de uma cruz é universalmente reconhecida como um símbolo de sacrifício, desafio e redenção. Representa a capacidade de suportar adversidades e também a fé que sustenta as pessoas através de tempos difíceis.",
+        "career": "No contexto profissional, A Cruz pode indicar um período de estresse significativo ou desafios que parecem pesados e difíceis de superar. É um momento para ser resiliente e confiar que essas dificuldades eventualmente levarão a um crescimento pessoal e profissional.",
+        "love": "Em termos de relacionamentos, esta carta pode sugerir um período de tensão ou provações que testarão a força e a profundidade dos vínculos. Encoraja a manter a fé e a trabalhar juntos para superar obstáculos.",
+        "advice": "Aceite os desafios como oportunidades para crescimento. A Cruz aconselha a encontrar força na fé e na resiliência, utilizando esses testes como meios para fortalecer o caráter e a determinação.",
+        "imageAlt": "A Cruz - Baralho Cigano"
+    },
+
+
+
+    };
+
+
+
+  function createCardElements() {
+    const cardsContainer = document.getElementById('cards-container');
+
+    for (const cardName in cardDescriptions) {
+        const card = cardDescriptions[cardName];
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+
+        // Adiciona o valor de 'imageAlt' se disponível, caso contrário, usa o nome da carta como 'alt'
+        const imageAltText = card.imageAlt || cardName;
+
+        cardElement.innerHTML = `
+            <h2>${cardName}</h2>
+            <img src="${card.imageSrc}" alt="${imageAltText}">
+            <div class="card-description">
+                <strong>Palavras-chave:</strong> ${card.keywords}<br><br>
+                <strong>1. Significado geral da carta:</strong> ${card.generalMeaning}<br><br>
+                <strong>2. Símbolos importantes e seus significados:</strong> ${card.symbols}<br><br>
+                <strong>3. Carreira e trabalho:</strong> ${card.career}<br><br>
+                <strong>4. Relacionamentos e amor:</strong> ${card.love}<br><br>
+                <strong>5. Conselhos:</strong> ${card.advice}
+            </div>
+        `;
+
+        cardsContainer.appendChild(cardElement);
+    }
+}
+
+createCardElements();
+
+</script>
+</body>
+</html>
